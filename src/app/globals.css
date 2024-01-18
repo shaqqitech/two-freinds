@@ -3,25 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-color: #011622;
+  --text-color: #ffffff;
+  --primary-accent-color: #64ffda;
+  --secondary-accent-color: #03dac5;
+  --button-color: #2196f3;
+  --link-color: #9c27b0;
+  --error-color: #ff5252;
+  --success-color: #4caf50;
+  --info-color: #2196f3;
+  --border-color: #424242;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.bgColor {
+    background-color: var(--background-color);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
