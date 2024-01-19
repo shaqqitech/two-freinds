@@ -4,8 +4,8 @@ import React from "react";
 const WhatsApp = () => {
   return (
     <main className="w-full flex justify-center items-center flex-col space-y-16 p-10">
-      <h1 className="font-bold text-5xl text-center">Start of the story</h1>
-      <div className="w-full flex flex-col lg:flex-row space-y-2">
+      <h1 className="font-bold text-5xl text-center">WhatsApp Numbery</h1>
+      <div className="w-full flex flex-col lg:flex-row-reverse space-y-2">
         {/* Left Box */}
         <section className="w-full lg:flex-1 flex justify-center items-center">
           <div
