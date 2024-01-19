@@ -12,7 +12,7 @@ const Main = () => {
         data-aos="fade-left"
         data-aos-duration="400"
       >
-        <h4 className="text-slate-400">This is a Story of</h4>
+        <h4 className="text-slate-400">This is the Story of</h4>
         <h1 className="font-bold">Two Friends Who Met Online</h1>
         <h4 className="text-slate-400">On Instagram</h4>
         <h4 className="text-slate-400">Approx. 4 years ago.</h4>

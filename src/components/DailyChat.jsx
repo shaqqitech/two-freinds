@@ -17,7 +17,7 @@ const DailyChat = () => {
             After she saw my response about her Egagement.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              I think she did not saw any bad thing in me and We started chat on daily basis.
+            I think she did not see any bad things in me, and we started chatting on a daily basis.
             </h2>
 
           </div>

@@ -14,10 +14,10 @@ const WhatsApp = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            One Day I jokingly ask her about her WhatsApp number.
+            One day, I jokingly asked her about her WhatsApp number.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              I Never imagined this but she gave me her WhatsApp number seriously, Oh my god.
+            I never imagined this, but she gave me her WhatsApp number seriously. Oh my god.
             </h2>
 
           </div>

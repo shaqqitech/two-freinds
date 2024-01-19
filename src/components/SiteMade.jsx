@@ -4,7 +4,7 @@ import React from "react";
 const SiteMade = () => {
   return (
     <main className="w-full h-screen flex justify-center items-center flex-col space-y-16">
-      <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">Why I made this site ??</h1>
+      <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">Why did I make this site ?</h1>
       <div className="w-full flex flex-col lg:flex-row space-y-2">
         {/* Left Box */}
         <section className="w-full lg:flex-1 flex justify-center items-center">

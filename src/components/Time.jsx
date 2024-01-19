@@ -17,7 +17,7 @@ const Time = () => {
             The time was going.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              And our firendship becomes better and better.
+            And our friendship becomes better and better.
             </h2>
 
           </div>

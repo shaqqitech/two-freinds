@@ -18,7 +18,7 @@ const LastsChat = () => {
             These are some of our final chats.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              Those days were never come back.
+            Those days never came back.
             </h2>
 
           </div>

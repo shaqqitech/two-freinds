@@ -4,7 +4,7 @@ import React from "react";
 const FinalWords = () => {
   return (
     <main className="w-full h-screen flex justify-center items-center flex-col space-y-16">
-      <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">Final Words ??</h1>
+      <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">Final Words...</h1>
       <div className="w-full flex flex-col lg:flex-row space-y-2">
         {/* Left Box */}
         <section className="w-full lg:flex-1 flex justify-center items-center">
@@ -14,7 +14,7 @@ const FinalWords = () => {
             data-aos-duration="400"
           >
             <p className="font-semibold lg:w-1/2 text-slate-500 text-xl sm:text-2xl lg:text-3xl text-center">
-                May Allah keep her and her husband and her family members happy forever.💕🤲
+            May Allah keep her, her husband, and her family members happy forever.💕🤲
             </p>
 
           </div>

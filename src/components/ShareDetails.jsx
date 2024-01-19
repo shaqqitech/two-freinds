@@ -14,10 +14,10 @@ const ShareDetails = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            After couple of months when we became best-friends.
+            After a couple of months, we became best friends.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              She starts sharing every little details about her to me.
+            She starts sharing every little detail about her with me.
             </h2>
 
           </div>

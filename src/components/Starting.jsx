@@ -17,7 +17,7 @@ const Starting = () => {
             I was the admin of an Instagram page.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              One Day She Follows My Page.
+              One Day, She Follows My Page.
             </h2>
 
           </div>

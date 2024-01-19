@@ -14,7 +14,7 @@ const OneDay = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            One Day, She tells me that she is already engaged.
+            One day, she tells me that she is already engaged.
             </h1>
 
           </div>

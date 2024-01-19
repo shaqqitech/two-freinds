@@ -17,7 +17,7 @@ const FinalDays = () => {
             Those days come when we left each other forever.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              Maybe somethings are meant to be gone.
+            Maybe something is meant to be gone.
             </h2>
 
           </div>

@@ -14,10 +14,10 @@ const Instagram = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            We preffered to talk on Instagram despite having numbers.
+            We preferred to talk on Instagram despite having numbers..
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              Because We shared infinity numbers of reels daily to each others.
+              Because We shared infinity numbers of reels daily with each other.
             </h2>
 
           </div>

@@ -14,10 +14,10 @@ const Shy = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            I was very shy to ask her photos.
+            I was very shy to ask for her photos.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              But she knew that I want to see her and she put her story and She added me on Snapchat and started to Sent me her snaps daily.
+            But she knew that I wanted to see her, so she put her story on Snapchat, added me, and started sending me her snaps daily.
             </h2>
 
           </div>

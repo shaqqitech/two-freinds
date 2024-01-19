@@ -14,10 +14,10 @@ const Reels = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            But what type of reels we share to each-others.
+            But what type of reels do we share with each other?
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              We share every type means every type of reels to each other.
+            We share every type, which means every type of reel, with each other.
             </h2>
 
           </div>

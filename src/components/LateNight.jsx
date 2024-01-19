@@ -14,10 +14,10 @@ const LateNight = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            We used to do Late Night Chats on daily basis.
+            We used to do late-night chats on a daily basis.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              And daily after 3-4 hours of chats she told me that You had to go on job morning so that you should go now.
+            And daily, after 3–4 hours of chats, she told me that you had to go to work this morning, so you should go now.
             </h2>
 
           </div>

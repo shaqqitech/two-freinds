@@ -17,7 +17,7 @@ const Fan = () => {
             She was a big big fan of Korean Dramas😍 but I was not😥.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              She knew what I like most and she suggests me that movies or series.
+            She knew what I liked most, and she suggested movies or series.
             </h2>
 
           </div>

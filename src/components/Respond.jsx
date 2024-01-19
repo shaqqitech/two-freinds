@@ -14,10 +14,10 @@ const Respond = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            She replied of my reply.
+            She replied to my reply.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              After that I start replied to her every story and she gave me the reply every time.
+            After that, I started replying to her every story, and she gave me a reply every time.
             </h2>
 
           </div>

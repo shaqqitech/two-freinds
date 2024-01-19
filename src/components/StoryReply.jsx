@@ -4,7 +4,7 @@ import React from "react";
 const StoryReply = () => {
   return (
     <main className="w-full flex justify-center items-center flex-col space-y-16 p-10">
-      <h1 className="font-bold text-5xl text-center">Replied to your story</h1>
+      <h1 className="font-bold text-5xl text-center">Early Days</h1>
       <div className="w-full flex flex-col lg:flex-row space-y-4">
         {/* Left Box */}
         <section className="w-full lg:flex-1 flex justify-center items-center">
@@ -14,10 +14,10 @@ const StoryReply = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            In Early Days, We do not know each others.
+            In our early days, we did not know each other.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              One Day I saw her story and replied to her story.
+            One day, I saw her story and replied to her story.
             </h2>
 
           </div>

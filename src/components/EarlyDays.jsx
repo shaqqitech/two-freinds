@@ -14,10 +14,10 @@ const EarlyDays = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            I Start waiting that when she puts a story.
+            I start waiting for that when she upload a story.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-              In early days, We only talks about the Instagram stories.
+            In the early days, we only talked about Instagram stories.
             </h2>
 
           </div>
