@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Video from 'next-video';
 import React from "react";
 
 const Instagram = () => {

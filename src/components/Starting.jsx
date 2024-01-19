@@ -36,6 +36,7 @@ const Starting = () => {
                 width={500}
                 height={1}
                 sizes="100%"
+                priority
                 className="w-full h-full"
               />
             </div>
