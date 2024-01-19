@@ -49,7 +49,6 @@ export default function Home() {
       <Shy />
       <WhatsApp />
       <Instagram />
-      {/* <Reels /> */}
       <Fan />
       <LateNight />
       {/* Final Days */}
