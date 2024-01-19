@@ -15,7 +15,6 @@ import ShareDetails from '@/components/ShareDetails';
 import Shy from '@/components/Shy';
 import WhatsApp from '@/components/WhatsApp';
 import Instagram from '@/components/Instagram';
-import Reels from '@/components/Reels';
 import Fan from '@/components/Fan';
 import LateNight from '@/components/LateNight';
 import FinalDays from '@/components/FinalDays';
