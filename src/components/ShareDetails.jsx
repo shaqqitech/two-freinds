@@ -3,7 +3,7 @@ import React from "react";
 
 const ShareDetails = () => {
   return (
-    <main className="w-full flex justify-center items-center flex-col space-y-16 p-10">
+    <main className="w-full h-screen flex justify-center items-center flex-col space-y-16 p-10">
       <h1 className="font-bold text-5xl text-center">Sharing Every Little Detail</h1>
       <div className="w-full flex flex-col lg:flex-row-reverse space-y-2">
         {/* Left Box */}
