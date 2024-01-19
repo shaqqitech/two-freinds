@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
+import Envelope from "./Envelope";
 
 const Reels = () => {
   return (
-    <main className="w-full flex justify-center items-center flex-col space-y-16 p-10">
+    <main className="w-full h-screen flex justify-center items-center flex-col space-y-16 p-10">
       <h1 className="font-bold text-5xl text-center">Sharing Reels</h1>
       <div className="w-full flex flex-col lg:flex-row-reverse space-y-2">
         {/* Left Box */}
@@ -24,14 +25,14 @@ const Reels = () => {
         </section>
 
         {/* Right Box */}
-        <section className="w-full h-full flex-1 flex justify-center items-center">
+        <section className="w-full h-full flex-1 flex justify-center items-center py-28">
           <div
-            className="w-full h-full mx-2 sm:mx-4 md:mx-8 lg:mx-24 lg:my-10"
+            className="w-full h-full"
             data-aos="fade-left"
             data-aos-duration="400"
           >
-            <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="" alt="Work image" width={500} height={1} />
+            <div className="w-full h-full flex justify-center items-center">
+              <Envelope />
             </div>
           </div>
         </section>

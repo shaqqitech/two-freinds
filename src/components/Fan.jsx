@@ -31,7 +31,7 @@ const Fan = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="" alt="Work image" width={500} height={1} />
+              <Image src="/images/kdramas.png" alt="Work image" width={500} height={1} />
             </div>
           </div>
         </section>

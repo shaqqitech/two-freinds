@@ -15,17 +15,20 @@ const LastsChat = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            These are some of our final chats.
+              These are some of our final chats.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            Those days never came back.
+              Those days never came back.
             </h2>
-
           </div>
         </section>
 
         {/* Right Box */}
-        <section className="w-full h-full flex-1 flex justify-center items-center">
+        <section
+          className="w-full h-full flex-1 flex justify-center items-center"
+          data-aos="fade-left"
+          data-aos-duration="400"
+        >
           <Cards />
         </section>
       </div>

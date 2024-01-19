@@ -17,31 +17,21 @@ const Cards = () => {
   };
 
   const nextCard = () => {
-      setCurrentCard((currentCard + 1) % 15);
-    };
-    
-    const prevCard = () => {
-        setCurrentCard((currentCard - 1 + 15) % 15);
+    setCurrentCard((currentCard + 1) % 15);
+  };
+
+  const prevCard = () => {
+    setCurrentCard((currentCard - 1 + 15) % 15);
   };
 
   return (
-    <main className="w-full h-full flex justify-center items-center flex-col relative">
-        {/* <div className="absolute w-full h-full -z-20 blur-sm">
-        <Image
-              src={img1}
-              alt='image'
-              layout="fill"
-              objectFit="cover"
-            />
-        </div> */}
+    <main className="w-full h-full flex justify-center items-center flex-col relative space-y-5">
       <section className="w-96 h-96 relative flex justify-center items-center">
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="w-60 h-72 absolute rounded-3xl overflow-hidden ring-4 ring-black transform transition-transform ease-in-out duration-500"
-            style={{
-              ...rotateCard(index),
-            }}
+            className="w-40 h-80 absolute rounded-3xl overflow-hidden ring-4 ring-yellow-400 transform transition-transform ease-in-out duration-500"
+            style={rotateCard(index)}
           >
             <Image
               src={card.img}
@@ -49,18 +39,24 @@ const Cards = () => {
               layout="fill"
               objectFit="cover"
             />
+            {index !== currentCard && (
+              <div
+                className="w-full h-full absolute bg-black opacity-50 rounded-3xl"
+                style={{ backdropFilter: "blur(12px)" }}
+              ></div>
+            )}
           </div>
         ))}
       </section>
       <div className="flex space-x-5 mt-4">
         <button
-          className="w-10 h-10 flex justify-center items-center bg-cyan-500 font-bold rounded-full"
+          className="w-10 h-10 flex justify-center items-center font-bold rounded-full"
           onClick={prevCard}
         >
           <GrPrevious size={20} className="text-white" />
         </button>
         <button
-          className="w-10 h-10 flex justify-center items-center bg-cyan-500 font-bold rounded-full"
+          className="w-10 h-10 flex justify-center items-center  font-bold rounded-full"
           onClick={nextCard}
         >
           <GrNext size={20} className="text-white" />
