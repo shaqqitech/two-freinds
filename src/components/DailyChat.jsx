@@ -14,12 +14,12 @@ const DailyChat = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            After she saw my response about her Egagement.
+              After she saw my response about her Egagement.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            I think she did not see any bad things in me, and we started chatting on a daily basis.
+              I think she did not see any bad things in me, and we started
+              chatting on a daily basis.
             </h2>
-
           </div>
         </section>
 
@@ -31,7 +31,14 @@ const DailyChat = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/pic6.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/pic6.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

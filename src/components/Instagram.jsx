@@ -34,7 +34,6 @@ const Instagram = () => {
               <div className="w-2/3 h-1/2 overflow-hidden rounded-2xl">
               <video src="/vid.mp4" autoPlay className="w-90" loop />
               </div>
-              {/* <Image src="" alt="Work image" width={500} height={1} /> */}
             </div>
           </div>
         </section>

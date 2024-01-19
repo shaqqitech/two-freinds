@@ -14,12 +14,11 @@ const Time = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            The time was going.
+              The time was going.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            And our friendship becomes better and better.
+              And our friendship becomes better and better.
             </h2>
-
           </div>
         </section>
 
@@ -31,7 +30,14 @@ const Time = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/pic7.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/pic7.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

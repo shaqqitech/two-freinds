@@ -14,12 +14,11 @@ const StoryReply = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            In our early days, we did not know each other.
+              In our early days, we did not know each other.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            One day, I saw her story and replied to her story.
+              One day, I saw her story and replied to her story.
             </h2>
-
           </div>
         </section>
 
@@ -31,7 +30,14 @@ const StoryReply = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/pic2.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/pic2.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

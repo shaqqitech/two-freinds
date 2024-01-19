@@ -14,12 +14,12 @@ const LateNight = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            We used to do late-night chats on a daily basis.
+              We used to do late-night chats on a daily basis.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            And daily, after 3–4 hours of chats, she told me that you had to go to work this morning, so you should go now.
+              And daily, after 3–4 hours of chats, she told me that you had to
+              go to work this morning, so you should go now.
             </h2>
-
           </div>
         </section>
 
@@ -31,7 +31,14 @@ const LateNight = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/latenight.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/latenight.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

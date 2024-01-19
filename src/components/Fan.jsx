@@ -14,12 +14,11 @@ const Fan = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            She was a big big fan of Korean Dramas😍 but I was not😥.
+              She was a big big fan of Korean Dramas😍 but I was not😥.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            She knew what I liked most, and she suggested movies or series.
+              She knew what I liked most, and she suggested movies or series.
             </h2>
-
           </div>
         </section>
 
@@ -31,7 +30,14 @@ const Fan = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/kdramas.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/kdramas.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

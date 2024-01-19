@@ -14,9 +14,8 @@ const OneDay = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            One day, she tells me that she is already engaged.
+              One day, she tells me that she is already engaged.
             </h1>
-
           </div>
         </section>
 
@@ -28,7 +27,14 @@ const OneDay = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/pic5.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/pic5.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

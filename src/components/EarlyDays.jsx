@@ -14,12 +14,11 @@ const EarlyDays = () => {
             data-aos-duration="400"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-center lg:text-start text-yellow-500">
-            I start waiting for that when she upload a story.
+              I start waiting for that when she upload a story.
             </h1>
             <h2 className="font-semibold text-slate-500 text-xl sm:text-2xl lg:text-3xl">
-            In the early days, we only talked about Instagram stories.
+              In the early days, we only talked about Instagram stories.
             </h2>
-
           </div>
         </section>
 
@@ -31,7 +30,14 @@ const EarlyDays = () => {
             data-aos-duration="400"
           >
             <div className="w-full h-full flex justify-center items-center relative">
-              <Image src="/images/pic4.png" alt="Work image" width={500} height={1} />
+              <Image
+                src="/images/pic4.png"
+                alt="Work image"
+                width={500}
+                height={1}
+                sizes="100%"
+                className="w-full h-full"
+              />
             </div>
           </div>
         </section>

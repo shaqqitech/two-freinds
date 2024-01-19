@@ -36,8 +36,10 @@ const Cards = () => {
             <Image
               src={card.img}
               alt={`Card ${index + 1}`}
-              layout="fill"
-              objectFit="cover"
+              // layout="fill"
+              // objectFit="cover"
+              fill
+              sizes="100%"
             />
             {index !== currentCard && (
               <div
